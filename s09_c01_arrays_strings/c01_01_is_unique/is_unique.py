@@ -7,9 +7,6 @@ What if you cannot use additional data structures?
 """
 
 
-import unittest
-
-
 def is_unique(str):
     """
     Return whether a string has all unique characters.
@@ -25,14 +22,3 @@ def is_unique(str):
         else:
             seen.add(letter)
     return True
-
-
-class TestIsUnique(unittest.TestCase):
-
-    def test_is_unique(self):
-        self.assertTrue(is_unique('asdf'))
-        self.assertTrue(is_unique('Airplane'))
-        self.assertFalse(is_unique('airplane'))
-
-if __name__ == '__main__':
-    unittest.main()

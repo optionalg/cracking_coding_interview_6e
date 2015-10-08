@@ -13,7 +13,7 @@ class Node(object):
         self.next = next
 
 
-class slist(object):
+class Slist(object):
     """
     An instance represents a singly-linked list.
     """
@@ -43,7 +43,8 @@ class slist(object):
         """
         Return the size of this list.
         """
-        cur = self.head, count = 0
+        cur = self.head
+        count = 0
         while cur.next:
             count += 1
             cur = cur.next
@@ -65,16 +66,18 @@ class slist(object):
         """
         Delete the node in this list with specific data, if applicable.
         """
-        prev = None, cur = self.head, found = False
+        prev = None
+        cur = self.head
+        found = False
 
         while cur and not found:
             if cur.data == data:
-                prev.next = cur.next
                 found = True
             else:
-                prev = cur, cur = cur.next
+                prev = cur
+                cur = cur.next
 
-        if current is None:
+        if cur is None:
             raise ValueError("Data not in list")
         if prev is None:
             self.head = cur.next
