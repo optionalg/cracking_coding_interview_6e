@@ -16,8 +16,8 @@ I will also try to include a few corner unit test cases as proof of correctness 
 
 I love python.
 
-Seriously though, check it out. Python is fast, clean, readable, and easy to debug. IMO, there is nothing simpler for interview questions, and so far my only complaint about the book is the author's decision to make Java the language of choice for solutions. Focusing on syntax-specific errors is a waste of your time and your interviewer's.
+Seriously though, check it out. There's a lot to love. Python is fast, clean, readable, easy to debug, and dynamically typed. IMO, there is nothing simpler for interview questions, and so far my only complaint about the book is the author's decision to make Java the language of choice for solutions. Focusing on syntax-specific errors is a waste of your time and your interviewer's.
 
 ## Disclaimer
 
-The content contained in this repository is strictly for educational purposes *only*. I do not make any claims concerning the correctness nor efficiency of any code, nor do I claim ownership of the content or questions contained in the book.
+The content contained in this repository is strictly for educational purposes *only*. I do not make any claims concerning the correctness nor efficiency of any code, nor do I claim ownership of any of the content or questions contained in the book.
