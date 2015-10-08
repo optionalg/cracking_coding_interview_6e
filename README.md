@@ -4,7 +4,7 @@ Because who doesn't love Python, **right**?
 
 ## Introduction
 
-The goal of this repository is to eventually create a central, complete guide to Python solutions of the problems contained in *Cracking the Coding Interview, 6th edition* by Gayle Laakman McDowell.
+The goal of this repository is to eventually create a **central, complete guide to Python solutions** of the problems contained in *Cracking the Coding Interview, 6th edition* by Gayle Laakman McDowell.
 
 I will do my best to write **clean**, **beautiful**, **correct**, and **efficient** code. Some solutions may not fulfill all of these goals, and I welcome your criticism and feedback.
 
