@@ -2,7 +2,7 @@
 
 Because who doesn't love Python, right?
 
-# Introduction
+## Introduction
 
 The goal of this repository is to eventually create a central, complete guide to Python solutions of the problems contained in *Cracking the Coding Interview, 6th edition* by Gayle Laakman McDowell.
 
@@ -12,12 +12,12 @@ I also hope that this project serves as a learning utility for bettering my soft
 
 I will also try to include a few corner unit test cases as proof of correctness for each of my solutions.
 
-# Why Python?
+## Why Python?
 
 I love python.
 
 Seriously though, check it out. Python is fast, clean, readable, and easy to debug. IMO, there is nothing simpler for interview questions, and so far my only complaint about the book is the author's decision to make Java the language of choice for solutions. Focusing on syntax-specific errors is a waste of your time and your interviewer's.
 
-# Disclaimer
+## Disclaimer
 
 The content contained in this repository is strictly for educational purposes *only*. I do not make any claims concerning the correctness nor efficiency of any code, nor do I claim ownership of the content or questions contained in the book.
