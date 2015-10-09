@@ -1,4 +1,8 @@
 class Node(object):
+    """
+    An instance represents a binary tree.
+    """
+
     val = None
     left = None
     right = None
@@ -10,10 +14,16 @@ class Node(object):
 
 
 def visit(node):
-    print node.value
+    """
+    Define the operation for visiting a node.
+    """
+    print node.val
 
 
 def in_order(node):
+    """
+    Perform in-order traversal on tree node.
+    """
     if node is not None:
         in_order(node.left)
         visit(node.val)
@@ -21,6 +31,9 @@ def in_order(node):
 
 
 def pre_order(node):
+    """
+    Perform pre-order traversal on tree node.
+    """
     if node is not None:
         visit(node.val)
         pre_order(node.left)
@@ -28,6 +41,9 @@ def pre_order(node):
 
 
 def post_order(node):
+    """
+    Perform post-order traversal on tree node.
+    """
     if node is not None:
         post_order(node.left)
         post_order(node.right)
