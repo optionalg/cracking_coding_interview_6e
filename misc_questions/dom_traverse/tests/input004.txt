@@ -1,0 +1,2 @@
+<html><body>this<div id='foo'>is an ugly</div><div id='bar'>little</div><div id='bar'></div>problem is<div id='foo'>not</div>nice</body></html>
+foo
