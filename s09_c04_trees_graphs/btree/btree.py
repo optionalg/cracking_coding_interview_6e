@@ -3,6 +3,11 @@ class Node(object):
     left = None
     right = None
 
+    def __init__(self, val, left, right):
+        self.val = val
+        self.left = left
+        self.right = right
+
 
 def visit(node):
     print node.value
