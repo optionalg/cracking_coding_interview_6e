@@ -18,10 +18,8 @@ class Slist(object):
     An instance represents a singly-linked list.
     """
 
-    head = None
-
     def __init__(self):
-        pass
+        self.head = None
 
     def append(self, data):
         """
@@ -63,6 +61,17 @@ class Slist(object):
                 return True
             cur = cur.next
         return False
+
+    def get(self, data):
+        """
+        Return whether this list contains a node with specific data.
+        """
+        cur = self.head
+        while cur:
+            if cur.data == data:
+                return data
+            cur = cur.next
+        raise ValueError("Data not in list")
 
     def delete(self, data):
         """
