@@ -11,11 +11,11 @@ def test_prepend():
 
 def test_insert():
     l = Slist()
-    l.prepend("Bob")
-    l.prepend("Amy")
-    assert l.head.data == "Amy"
+    l.append("Bob")
+    l.append("Amy")
+    assert l.head.data == "Bob"
     head_next = l.head.next
-    assert head_next.data == "Bob"
+    assert head_next.data == "Amy"
 
 
 def test_next():
