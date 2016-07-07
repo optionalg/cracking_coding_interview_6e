@@ -18,13 +18,7 @@ def is_unique(str):
     If alphabet is ASCII, c = 128.
     If alphabet is extended ASCII, c = 256.
     """
-    seen = set()
-    for letter in list(str):
-        if letter in seen:
-            return False
-        else:
-            seen.add(letter)
-    return True
+    return len(set(str)) == len(str)
 
 def is_unique_no_additional_data_structures(str):
     """
@@ -38,8 +32,8 @@ def is_unique_no_additional_data_structures(str):
     If alphabet is ASCII, c = 128.
     If alphabet is extended ASCII, c = 256.
     """
-    for letter1 in list(str):
-        for letter2 in list(str):
-            if letter1 == letter2:
+    for i1 in range(len(str)):
+        for i2 in range(len(str)):
+            if i1 != i2 and str[i1] == str[i2]:
                 return False
     return True

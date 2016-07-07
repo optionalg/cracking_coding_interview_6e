@@ -1,3 +1,0 @@
-html
-body this problem is nice
-div bar little div bar

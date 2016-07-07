@@ -1,3 +1,0 @@
-html
-body content This good example.
-div wrapper3 harmless
