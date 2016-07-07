@@ -17,7 +17,7 @@ git clone https://github.com/kevinschaich/cracking_coding_interview_6e/
 ```sh
 cd cracking_coding_interview_6e
 source venv/bin/activate
-py.test s09_technical_questions
+py.test s09*
 ```
 
 ## Introduction
