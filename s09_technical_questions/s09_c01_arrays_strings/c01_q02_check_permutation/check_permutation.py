@@ -8,7 +8,7 @@ def check_permutation(s1, s2):
     """
     Return whether s1 and s2 are permutations of each other.
 
-    Time Complexity: O(n)
+    Time Complexity: O(nlog(n))
     Space Complexity: O(n)
     where n is max(len(s1), len(s2))
     """
