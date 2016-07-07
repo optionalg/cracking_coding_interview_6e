@@ -1,6 +1,6 @@
 # Cracking The Coding Interview, 6th Edition
 
-##Solutions a la Python
+####Solutions a la Python
 
 Because who doesn't love Python, **right**?
 
@@ -30,10 +30,10 @@ source venv/bin/activate
 py.test s09_technical_questions
 ```
 
-### Why Python?
+#### Why Python?
 
 There's a lot to love. Python is **fast**, **clean**, **readable**, **easy to debug**, and **dynamically typed**. IMHO, there is nothing simpler for interview questions, and so far my only complaint about the book is the author's decision to make Java the language of choice for solutions. Focusing on syntax-specific errors is a waste of your time and your interviewer's.
 
-### Disclaimer
+#### Disclaimer
 
 The content contained in this repository is strictly for educational purposes only. I do not make any claims concerning the correctness nor efficiency of any code, nor do I claim ownership of any of the content or questions contained in the book.
