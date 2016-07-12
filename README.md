@@ -11,6 +11,7 @@ Because who doesn't love Python, **right**?
 ```sh
 git clone https://github.com/kevinschaich/cracking_coding_interview_6e/
 cd cracking_coding_interview_6e
+pip install virtualenv
 virtualenv venv
 source venv/bin/activate
 pip install pytest
