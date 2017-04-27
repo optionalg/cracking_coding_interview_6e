@@ -13,9 +13,11 @@ Example:
         "Mr%20John%20Smith"
 """
 
+
 def URLify(str, length):
     """
     Return the input string with all spaces replaced with '%20'.
+    Use a character array.
 
     Time Complexity: O(n)
     Space Complexity: O(n)
@@ -30,8 +32,8 @@ def URLify(str, length):
     i = 0
     while (num_spaces > 0):
         if char_list[i] == ' ':
-            char_list[i+3:total_len] = char_list[i+1:total_len-2]
-            char_list[i:i+3] = ['%', '2', '0']
+            char_list[i + 3:total_len] = char_list[i + 1:total_len - 2]
+            char_list[i:i + 3] = ['%', '2', '0']
             num_spaces -= 1
         i += 1
     return ''.join(char_list)

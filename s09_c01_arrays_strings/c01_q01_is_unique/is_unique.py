@@ -6,6 +6,7 @@ Implement an algorithm to determine if a string has all unique characters.
 What if you cannot use additional data structures?
 """
 
+
 def is_unique(str):
     """
     Return whether a string has all unique characters.
@@ -19,6 +20,7 @@ def is_unique(str):
     If alphabet is extended ASCII, c = 256.
     """
     return len(set(str)) == len(str)
+
 
 def is_unique_no_additional_data_structures(str):
     """

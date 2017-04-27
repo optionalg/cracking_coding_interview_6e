@@ -15,6 +15,7 @@ Example:
     pale,  bake -> False
 """
 
+
 def one_away(str1, str2, edit_seen=False):
     """
     Return whether two strings are one edit (insertion, removal, replacement) away.

@@ -16,6 +16,7 @@ Example:
         True (permutations: "taco cat", "atco cta", etc.)
 """
 
+
 def palindrome_permutation(str):
     """
     Return whether the input string is a permutation of a palindrome.
